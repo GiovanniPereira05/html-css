@@ -1,0 +1,96 @@
+@charset "utf-8";
+@font-face{
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    display: block;
+    background-color: #84e4ac;
+    text-align: center;
+    align-items: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+}
+
+body img{
+    margin: 0 auto;
+    }
+
+.cabecalho{
+   background: linear-gradient(#3bd47f,#2d704c );
+   color: white;
+   
+}
+
+
+ul{
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
+li{
+    margin-right: 22px;
+}
+
+.rodape{
+    background-color: #1c5c3c;
+}
+
+h2, h3{
+    font-family: 'Idroid', Arial, sans-serif;
+    color: #22613f;
+}
+
+.criador{
+    text-decoration: bold;
+}
+
+.card{
+    flex-direction: column;
+    background-color: white;
+    margin: 0px 200px 20px 200px;
+    padding: 1px;
+    border: 1px solid black;
+    border-radius: 1px 1px 13px 13px;
+    box-shadow: 1px 1px 1px black;
+    text-align: justify;
+   
+}
+
+.card img{
+    display: flex;
+    align-items: center;
+}
+
+#versoes{
+    list-style: none;
+}
+
+h3.destacado{
+    background: linear-gradient(to right, #c5ebd6, white);
+}
+
+.video{
+    align-items: center;
+    background-color: #1c5c3c;
+    padding: 20px;
+}
+
+.extra h4{
+    background-color: #2cac64;
+    border-radius: 11px 11px 0px 0px;
+}
+
+.extra{
+    background-color: #c4ecd4;
+    border-radius: 11px 11px 11px 11px;
+    padding: 10px;
+}
+
+h2, h3{
+    text-align: justify;
+    padding-left: 20px;
+}
